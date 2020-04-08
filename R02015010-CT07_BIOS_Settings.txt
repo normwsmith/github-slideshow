@@ -1,16 +1,3 @@
-				; Warning!!! Warning!!! Warning!!! 
-				; ---------------------------------
-				; This file has been generated in a system with the BIOS/Firmware 
-				; specifications as mentioned under [SYSTEM] section. Please do not
-				; modify or edit any information in this section. Attempt to restore 
-				; these information in incompatible systems could cause serious 
-				; problems to the systems and could lead the system non-functional. 
-				; Note: The file is best seen using wordpad.
-
-
-
-
-
 				[SYSTEM]
 				BIOSVersion=SE5C620.86B.02.01.5010.C0T07.031920200357 	; This field should not be edited
 				FWOpcodeVersion=2.37.1F190479                      		; This field should not be edited
