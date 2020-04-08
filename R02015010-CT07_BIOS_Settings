@@ -263,7 +263,7 @@ F2 Settings By Node Type
 
 VMS: 
 1. SOL for Baseboard Mgmt=Enabled
-2. Fan PWM Offset = 0         
+2. Fan PWM Offset=0         
 3. Resume on AC Power Loss=Power On
 4. BIOS::BootOrder					
 	IBA 40G Slot 3D00 v1066=1                          
@@ -272,7 +272,7 @@ VMS:
 
 Analytic Node: 
 1. SOL for Baseboard Mgmt=Enabled
-2. Fan PWM Offset = 20         
+2. Fan PWM Offset=20         
 3. Resume on AC Power Loss=Power On
 4. BIOS::BootOrder					
 	IBA 40G Slot 3D00 v1066=1                          
@@ -281,7 +281,7 @@ Analytic Node:
 	
 SQLE Node: 
 1. SOL for Baseboard Mgmt=Enabled
-2. Fan PWM Offset = 20         
+2. Fan PWM Offset=20         
 3. Resume on AC Power Loss=Stay Off
 4. BIOS::BootOrder					
 	IBA 40G Slot 3D00 v1066=1                          
