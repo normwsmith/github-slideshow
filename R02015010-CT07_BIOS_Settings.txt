@@ -14,7 +14,6 @@
 				[SYSTEM]
 				BIOSVersion=SE5C620.86B.02.01.5010.C0T07.031920200357 	; This field should not be edited
 				FWOpcodeVersion=2.37.1F190479                      		; This field should not be edited
-
 				[BIOS::Secure Boot Configuration]
 
 				[BIOS::Main]
@@ -54,17 +53,12 @@ CAP Setting		Hardware P-States=Disabled                         ;Options: Disabl
 				APS rocketing
 				Scalability
 				RAPL Prioritization
-				Package RAPL Limit MRS Loc
 				
 				[BIOS::Advanced::Power & Performance::CPU P State Control]
 				Enhanced Intel SpeedStep(R) Tech=Enabled           ;Options: Disabled=00: Enabled=01
-				Intel Speed Select
-				Activate PBF
-				Configure PBF
 				Intel Configurable TDP=Disabled                    ;Options: Disabled=00: Enabled=01
-				Configurable TDP Level
-CAP Setting		Intel(R) Turbo Boost Technology=Enabled            ;Options: Disabled=00: Enabled=01
-				Energy Efficient Turbo=Disabled                    ;Options: Enabled=00: Disabled=01
+				Intel(R) Turbo Boost Technology=Enabled            ;Options: Disabled=00: Enabled=01
+CAP Setting		Energy Efficient Turbo=Disabled                    ;Options: Enabled=00: Disabled=01
 
 				[BIOS::Advanced::Power & Performance::Uncore Power Management]
 				Uncore Frequency Scaling=Enabled                   ;Options: Enabled=00: Disabled=01
@@ -72,8 +66,6 @@ CAP Setting		Intel(R) Turbo Boost Technology=Enabled            ;Options: Disabl
 
 				[BIOS::Advanced::UPI Configuration]
 				Intel(R) UPI Frequency Select=Auto Max             ;Options: 9.6 GT/s=00: 10.4 GT/s=01: Auto Max=02
-				XPT Prefetch
-				Hit Me
 				IO Directory Cache (IODC)=Auto                     ;Options: Disabled=00: Auto=01: Enable for Remote InvItoM Hybrid Push=02: Enable for Remote InvItoM AllocFlow=03: Enable for Remote InvItoM Hybrid AllocNonAlloc=04: Enable for Remote InvItoM and Remote WCiLF=05
 				KTI Prefetch=Enabled                               ;Options: Disabled=00: Enabled=01
 				Stale AtoS=Disabled                                ;Options: Disabled=00: Enabled=01: Auto=02
