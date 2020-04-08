@@ -257,3 +257,36 @@ F2 Setting		[BIOS::BootOrder]
 				IBA 40G Slot 3D00 v1066=1                          
 				(Bus5E Dev00)Intel(r) RAID Ctlr=2                  
 				Launch EFI Shell=3                                 
+
+
+F2 Settings By Node Type
+
+VMS: 
+1. SOL for Baseboard Mgmt=Enabled
+2. Fan PWM Offset = 0         
+3. Resume on AC Power Loss=Power On
+4. BIOS::BootOrder					
+	IBA 40G Slot 3D00 v1066=1                          
+	(Bus5E Dev00)Intel(r) RAID Ctlr=2                  
+	Launch EFI Shell=3 
+
+Analytic Node: 
+1. SOL for Baseboard Mgmt=Enabled
+2. Fan PWM Offset = 20         
+3. Resume on AC Power Loss=Power On
+4. BIOS::BootOrder					
+	IBA 40G Slot 3D00 v1066=1                          
+	(Bus5E Dev00)Intel(r) RAID Ctlr=2                  
+	Launch EFI Shell=3 
+	
+SQLE Node: 
+1. SOL for Baseboard Mgmt=Enabled
+2. Fan PWM Offset = 20         
+3. Resume on AC Power Loss=Stay Off
+4. BIOS::BootOrder					
+	IBA 40G Slot 3D00 v1066=1                          
+	(Bus5E Dev00)Intel(r) RAID Ctlr=2                  
+	Launch EFI Shell=3	
+	
+   
+
